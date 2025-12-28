@@ -120,9 +120,3 @@ Used `pickle` to save and load:
 - Trained ML models
 - Scalers
 - Encoders
-
-Example:
-```python
-scaler.fit(X_train)
-scaler.transform(X_train)
-scaler.transform(X_new_data)
