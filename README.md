@@ -31,7 +31,6 @@ This project addresses:
   - Regression
   - Classification
   - Feature Engineering
-  - Hyperparameter Tuning
 
 ---
 
@@ -62,13 +61,10 @@ This project addresses:
 - Handled missing values using mean, median, or mode
 - Treated outliers using:
   - IQR Method
-  - Isolation Forest
 - Handled skewness using:
   - Log Transformation
-  - Box-Cox Transformation
 - Encoded categorical variables using:
   - One-Hot Encoding
-  - Label Encoding
 - Removed highly correlated features using heatmaps
 
 ---
@@ -103,12 +99,6 @@ This project addresses:
   - Recall
   - F1-Score
   - ROC-AUC
-
----
-
-## 🔧 Hyperparameter Tuning
-- GridSearchCV
-- Cross-Validation
 
 ---
 
